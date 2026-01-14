@@ -1,0 +1,15 @@
+{
+  "title": "Manajemen Sekolah",
+  "pages": [
+    "lihat-kelas",
+    "tahun-ajaran",
+    "jadwal",
+    "cuti",
+    "monitoring-tugas",
+    "ujian-online",
+    "ujian-offline",
+    "bank-soal",
+    "pembayaran",
+    "pengumuman"
+  ]
+}

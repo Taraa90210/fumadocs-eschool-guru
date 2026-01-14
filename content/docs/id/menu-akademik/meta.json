@@ -1,0 +1,13 @@
+{
+  "title": "Menu Akademik",
+  "pages": [
+    "jadwal",
+    "kehadiran",
+    "mata-pelajaran",
+    "tugas-siswa",
+    "ujian-online",
+    "ujian-offline",
+    "bank-soal",
+    "pengumuman"
+  ]
+}
