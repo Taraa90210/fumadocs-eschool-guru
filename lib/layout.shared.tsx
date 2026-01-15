@@ -13,7 +13,7 @@ export function baseOptions(): BaseLayoutProps {
             height={30}
             className="rounded-sm"
           />
-          <span className="font-bold text-lg tracking-tight">eSchool Mobile - Siswa & Wali</span>
+          <span className="font-bold text-lg tracking-tight">eSchool Mobile - Guru & Staff</span>
         </div>
       ),
     },
