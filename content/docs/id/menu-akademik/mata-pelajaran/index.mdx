@@ -3,5 +3,32 @@ title: Mata Pelajaran
 icon: LibraryBig
 ---
 
-# Mata Pelajaran
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, Book, BookMarked } from 'lucide-react';
 
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Book  className="h-5 w-5 text-fd-primary" />
+          <span>Kelola Pelajaran (Bab)</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="mata-pelajaran/kelola-pelajaran-bab"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <BookMarked className="h-5 w-5 text-fd-primary" />
+          <span>Kelola Topik (Sub Bab)</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="mata-pelajaran/kelola-topik-sub-bab"
+  />
+</Cards>  

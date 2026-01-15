@@ -3,5 +3,80 @@ title: Ujian Online
 icon: ClipboardPlus
 ---
 
-# Ujian Online
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, FilePlusCorner, Plus, Archive, TrendingUp, FilePlus, AlignEndVertical } from 'lucide-react';
 
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <AlignEndVertical className="h-5 w-5 text-fd-primary" />
+          <span>Kelola Ujian Online</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="ujian-online/kelola-ujian-online"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FilePlusCorner className="h-5 w-5 text-fd-primary" />
+          <span>Buat Ujian Online</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="ujian-online/ujian-online/buat-ujian-online"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Plus className="h-5 w-5 text-fd-primary" />
+          <span>Tambah Soal Ujian</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="ujian-online/ujian-online/tambah-soal-ujian"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Archive className="h-5 w-5 text-fd-primary" />
+          <span>Archive Ujian Online</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="ujian-online/ujian-online/archive-ujian-online"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-5 w-5 text-fd-primary" />
+          <span>Status Ujian Siswa</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="ujian-online/status-ujian-siswa"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FilePlus className="h-5 w-5 text-fd-primary" />
+          <span>Hasil Ujian Online</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="ujian-online/hasil-ujian-online"
+  />
+</Cards>

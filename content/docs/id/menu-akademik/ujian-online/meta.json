@@ -1,8 +1,8 @@
 {
   "title": "Ujian Online",
   "pages": [
-    "ujian-online",
-    "status-siswa-ujian",
+    "kelola-ujian-online",
+    "status-ujian-siswa",
     "hasil-ujian-online"
   ]
 }

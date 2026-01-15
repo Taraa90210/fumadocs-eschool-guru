@@ -3,5 +3,69 @@ title: Kehadiran
 icon: CalendarCheck
 ---
 
-# Kehadiran
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, CalendarFold, NotebookText, NotebookPen, ChartColumnIncreasing } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarFold  className="h-5 w-5 text-fd-primary" />
+          <span>Kehadiran Kegiatan Khusus</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="kehadiran/kehadiran-kegiatan-khusus"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <NotebookText className="h-5 w-5 text-fd-primary" />
+          <span>Laporan Kehadiran Khusus</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="kehadiran/laporan-kehadiran-khusus"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <NotebookText  className="h-5 w-5 text-fd-primary" />
+          <span>Kehadiran Kegiatan Per Mapel</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="kehadiran/kehadiran-kegiatan-per-mapel"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <NotebookPen className="h-5 w-5 text-fd-primary" />
+          <span>Rekap Kehadiran</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="kehadiran/rekap-kehadiran"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ChartColumnIncreasing  className="h-5 w-5 text-fd-primary" />
+          <span>Point Alpha Siswa Tertinggi</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="kehadiran/point-alpha-siswa-tertinggi"
+  />
+</Cards>
 
