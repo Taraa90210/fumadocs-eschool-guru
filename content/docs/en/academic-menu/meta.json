@@ -1,0 +1,13 @@
+{
+  "title": "Academic Menu",
+  "pages": [
+    "schedule",
+    "attendance",
+    "subjects",
+    "manage-assignments",
+    "online-exams",
+    "offline-exams",
+    "question-bank",
+    "announcements"
+  ]
+}

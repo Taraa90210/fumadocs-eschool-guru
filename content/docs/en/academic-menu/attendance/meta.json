@@ -1,0 +1,10 @@
+{
+  "title": "Attendance",
+  "pages": [
+    "special-activity-attendance",
+    "special-attendance-report",
+    "subject-attendance-report",
+    "attendance-recap",
+    "highest-student-absence-points"
+  ]
+}

@@ -1,0 +1,70 @@
+---
+title: Attendance
+icon: CalendarCheck
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, CalendarFold, NotebookText, NotebookPen, ChartColumnIncreasing } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarFold  className="h-5 w-5 text-fd-primary" />
+          <span>Special Activity Attendance</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="attendance/special-activity-attendance"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <NotebookText className="h-5 w-5 text-fd-primary" />
+          <span>Special Attendance Report</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="attendance/special-attendance-report"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <NotebookText  className="h-5 w-5 text-fd-primary" />
+          <span>Subject Attendance Report</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="attendance/subject-attendance-report"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <NotebookPen className="h-5 w-5 text-fd-primary" />
+          <span>Attendance Recap</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="attendance/attendance-recap"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ChartColumnIncreasing  className="h-5 w-5 text-fd-primary" />
+          <span>Highest Student Absence Points</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="attendance/highest-student-absence-points"
+  />
+</Cards>

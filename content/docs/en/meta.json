@@ -1,0 +1,21 @@
+{
+  "title": "eSchool Guru Mobile Apps",
+  "pages": [
+    "index",
+    "---INTRODUCTION---",
+    "introduction/overview",
+    "introduction/mobile-app-interface",
+    "---NEW USER GUIDE---",
+    "new-user-guide/registration",
+    "new-user-guide/login",
+    "---ACADEMIC MENU---",
+    "academic-menu/schedule",
+    "academic-menu/attendance",
+    "academic-menu/subjects",
+    "academic-menu/question-bank",
+    "academic-menu/manage-assignments",
+    "academic-menu/announcements",
+    "academic-menu/offline-exams",
+    "academic-menu/online-exams"
+  ]
+}
