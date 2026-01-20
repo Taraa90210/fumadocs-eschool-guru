@@ -3,3 +3,32 @@ title: Cuti
 icon: CalendarX
 ---
 
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, CalendarX } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarX className="h-5 w-5 text-fd-primary" />
+          <span>Cuti Staff</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="cuti/cuti-staff"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarX className="h-5 w-5 text-fd-primary" />
+          <span>Cuti Guru</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="cuti/cuti-guru"
+  />
+</Cards>

@@ -3,5 +3,32 @@ title: Cuti
 icon: CalendarX
 ---
 
-# Cuti
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, MessageCircleX, History } from 'lucide-react';
 
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <MessageCircleX className="h-5 w-5 text-fd-primary" />
+          <span>Ajukan Cuti</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="cuti/ajukan-cuti"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <History className="h-5 w-5 text-fd-primary" />
+          <span>Riwayat Cuti</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="cuti/riwayat-cuti"
+  />
+</Cards>

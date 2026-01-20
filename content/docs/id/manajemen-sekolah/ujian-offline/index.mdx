@@ -3,5 +3,32 @@ title: Ujian Offline
 icon: ClipboardMinus
 ---
 
-# Ujian Offline
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, CalendarMinus2, FileMinus } from 'lucide-react';
 
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <CalendarMinus2 className="h-5 w-5 text-fd-primary" />
+          <span>Jadwal Ujian Offline</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="ujian-offline/jadwal-ujian-offline"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FileMinus className="h-5 w-5 text-fd-primary" />
+          <span>Hasil Ujian offline</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="ujian-offline/hasil-ujian-offline"
+  />
+</Cards>

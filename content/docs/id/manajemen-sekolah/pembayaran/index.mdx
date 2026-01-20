@@ -3,5 +3,32 @@ title: Pembayaran
 icon: Wallet
 ---
 
-# Pembayaran
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, ReceiptText, Banknote } from 'lucide-react';
 
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ReceiptText className="h-5 w-5 text-fd-primary" />
+          <span>Biaya yang Dibayar</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="pembayaran/biaya-yang-dibayar"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Banknote className="h-5 w-5 text-fd-primary" />
+          <span>Kelola Gaji</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="pembayaran/kelola-gaji"
+  />
+</Cards>
