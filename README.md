@@ -2,12 +2,10 @@
 
 <div align="center"><img src="./public/images/page/01_banner.png" alt=""></div>
 
-## <i class="fa-solid"></i>Selamat Datang di eSchool Siakad Mobile Siswa & Wali
+## <i class="fa-solid"></i>Selamat Datang di Mobile Apps eSchool Guru
 
-Selamat datang di **eSchool Siakad Mobile**, aplikasi pembelajaran digital yang dirancang khusus untuk memberikan kemudahan dan kenyamanan bagi **siswa** dan **orang tua/wali** dalam mengikuti serta memantau kegiatan belajar secara langsung dari perangkat mobile.
+Di sini, Anda akan menemukan semua informasi penting tentang fitur-fitur utama **eSchool Mobile** yang dirancang khusus untuk mendukung peran Anda sebagai **guru dan staf sekolah**. Aplikasi ini hadir untuk mempermudah kegiatan akademik dan administrasi secara digital, efisien, dan terintegrasi dalam genggaman Anda.
 
-Di dalam aplikasi ini, Anda dapat mengakses berbagai fitur penting — mulai dari **jadwal pelajaran, tugas, dan nilai** bagi siswa, hingga **monitoring perkembangan akademik dan kehadiran anak** bagi orang tua.
+Telusuri beragam kapabilitas platform ini — mulai dari **pengelolaan jadwal dan absensi siswa**, **penilaian dan pelaporan hasil belajar**, hingga **komunikasi efektif dengan orang tua**. Semua fitur dikemas dalam antarmuka aplikasi mobile yang intuitif dan praktis, sehingga Anda dapat menjalankan tanggung jawab sehari-hari dengan lebih mudah, cepat, dan profesional.
 
-Kami hadir untuk membantu Anda memaksimalkan penggunaan eSchool sesuai peran Anda, baik sebagai **pelajar yang aktif belajar**, maupun sebagai **wali yang peduli terhadap pendidikan anak**.
-
-Mari bersama wujudkan pengalaman belajar yang lebih **cerdas, terarah, dan terhubung** melalui eSchool Mobile.
+**eSchool Mobile** siap menjadi asisten digital Anda dalam menciptakan lingkungan pendidikan yang modern dan terkoneksi. Maksimalkan manfaatnya sesuai peran Anda sebagai pendidik maupun tenaga kependidikan!
