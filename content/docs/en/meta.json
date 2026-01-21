@@ -1,5 +1,5 @@
 {
-  "title": "eSchool Guru Mobile Apps",
+  "title": "eSchool Guru Documentation",
   "pages": [
     "index",
     "---INTRODUCTION---",
@@ -15,7 +15,33 @@
     "academic-menu/question-bank",
     "academic-menu/manage-assignments",
     "academic-menu/announcements",
+    "academic-menu/extracurricular",
     "academic-menu/offline-exams",
-    "academic-menu/online-exams"
+    "academic-menu/online-exams",
+    "---SCHOOL MANAGEMENT---",
+    "school-management/view-classes",
+    "school-management/academic-year",
+    "school-management/holidays",
+    "school-management/schedule",
+    "school-management/question-bank",
+    "school-management/assignment-monitoring",
+    "school-management/offline-exams",
+    "school-management/online-exams",
+    "school-management/announcements",
+    "school-management/extracurricular",
+    "school-management/payments",
+    "---PERSONAL SETTINGS---",
+    "personal-settings/edit-profile",
+    "personal-settings/change-password",
+    "personal-settings/holidays",
+    "personal-settings/payroll",
+    "---TROUBLESHOOTING---",
+    "troubleshooting/login-issues",
+    "troubleshooting/forgot-password",
+    "---SECURITY AND POLICY---",
+    "security-and-policy/security",
+    "security-and-policy/terms-and-conditions",
+    "security-and-policy/privacy-policy",
+    "security-and-policy/contact-us"
   ]
 }

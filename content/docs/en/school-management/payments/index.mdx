@@ -1,0 +1,34 @@
+---
+title: Payments
+icon: Wallet
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, ReceiptText, Banknote } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <ReceiptText className="h-5 w-5 text-fd-primary" />
+          <span>Paid Fees</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="payments/paid-fees"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Banknote className="h-5 w-5 text-fd-primary" />
+          <span>Salary Management</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="payments/salary-management"
+  />
+</Cards>

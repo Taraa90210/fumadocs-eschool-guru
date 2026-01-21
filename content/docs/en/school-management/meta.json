@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "view-classes",
+    "academic-year",
+    "holidays",
+    "schedule",
+    "question-bank",
+    "assignment-monitoring",
+    "offline-exams",
+    "online-exams",
+    "announcements",
+    "extracurricular",
+    "payments"
+  ]
+}

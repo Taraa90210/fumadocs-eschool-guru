@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "index",
+    "create-online-exam",
+    "add-exam-questions",
+    "online-exam-archive"
+  ]
+}

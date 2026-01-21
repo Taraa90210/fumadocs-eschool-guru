@@ -1,0 +1,82 @@
+---
+title: Online Exams
+icon: ClipboardPlus
+---
+
+import { Cards, Card } from 'fumadocs-ui/components/card';
+import { ChevronRight, FilePlusCorner, Plus, Archive, TrendingUp, FilePlus, AlignEndVertical } from 'lucide-react';
+
+<Cards>
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <AlignEndVertical className="h-5 w-5 text-fd-primary" />
+          <span>Manage Online Exams</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="online-exams/manage-online-exams"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FilePlusCorner className="h-5 w-5 text-fd-primary" />
+          <span>Create Online Exam</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="online-exams/manage-online-exams/create-online-exam"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Plus className="h-5 w-5 text-fd-primary" />
+          <span>Add Exam Questions</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="online-exams/manage-online-exams/add-exam-questions"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <Archive className="h-5 w-5 text-fd-primary" />
+          <span>Online Exam Archive</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="online-exams/manage-online-exams/online-exam-archive"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-5 w-5 text-fd-primary" />
+          <span>Student Exam Status</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="online-exams/student-exam-status"
+  />
+  <Card
+    title={
+      <div className="flex items-center justify-between w-full">
+        <div className="flex items-center gap-2">
+          <FilePlus className="h-5 w-5 text-fd-primary" />
+          <span>Online Exam Results</span>
+        </div>
+        <ChevronRight className="h-4 w-4 text-fd-muted-foreground" />
+      </div>
+    }
+    href="online-exams/online-exam-results"
+  />
+</Cards>
