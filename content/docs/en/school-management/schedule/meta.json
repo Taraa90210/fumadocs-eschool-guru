@@ -1,6 +1,7 @@
 {
+  "title": "Schedule",
   "pages": [
-    "teacher-schedule",
-    "class-schedule"
+    "class-schedule",
+    "teacher-schedule"
   ]
 }
